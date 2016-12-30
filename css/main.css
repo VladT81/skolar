@@ -1,0 +1,90 @@
+
+html, body{
+    height: 100%;
+}
+body{
+    background:#87CEFA;
+    font-family: "Times New Roman";
+}
+table{
+    border: solid 3px grey;
+    margin: 0 auto;
+    min-width: 70%;
+}
+th, td{
+      border: solid 1px grey;
+    padding: 0px 10px;
+  }
+.center{
+    text-align: center;
+}
+.main{
+    width:1200px;
+    min-height:100%;
+    position: relative;
+    margin: 0 auto;
+    background:#fff;
+}
+
+/****navigation panel****/
+.navigation{
+    height:35px;
+    padding-top:10px;
+    background: linear-gradient(to bottom, #C0C0C0 14.2%, white);
+}
+.navigation ul, .logIn ul{
+    width:84%;
+    list-style:none;
+    margin: 0 auto;
+}
+.navigation ul li, .logIn ul li{
+    float:left;
+}
+.navigation a, .logIn a{
+    padding: 0 5px;
+    color:#000080;
+    vertical-align:middle;
+}
+.navigation a.active{
+    color:#008000;
+}
+/****end navigation panel****/
+/****logo****/
+.logo{
+    width:80%;
+
+    margin: 20px auto 0;
+    color:maroon;
+    text-align: center;
+}
+
+.logo h1{
+    font-size:36px;
+}
+.logo h2{
+    font-size:24px;
+}
+/****end logo****/
+
+/****content****/
+.home{
+    width:80%;
+    min-height: 1200px;
+    margin:0 auto;
+    clear:left;
+    font-size: 100%;
+    background: url("/img/korpor.jpg") no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 35px;
+}
+/****end content****/
+
+
+/****footer****/
+.footer{
+    text-align: center;
+}
+
+/****end footer****/
+
